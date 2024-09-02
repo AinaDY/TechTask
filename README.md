@@ -93,7 +93,7 @@ EXPOSE 8000
 CMD ["python", "/app/application.py"]
 ```
 
-Open your terminal and run the following command to build the Docker image:
+Run the following command to build the Docker image:
 ```bash
 docker build . -f docker/application/Dockerfile -t exampleapp
 ```
