@@ -21,7 +21,9 @@ Before proceeding, ensure Docker is installed on your machine. If not, you need 
 
 ## Step 2: Set up Kubernetes cluster
 
-Prepare a Kubernetes cluster. Once ready, you’ll deploy the application container in this cluster. For example, assume the application (`ExampleApp`) listens on port 8080.
+You need to have a Kubernetes cluster ready for deploying your application. If you’re unfamiliar with setting up a Kubernetes cluster, consider using managed Kubernetes services like Google Kubernetes Engine (GKE), Amazon EKS, or Azure Kubernetes Service (AKS). For detailed instructions on setting up a cluster, you can refer to the official [Kubernetes documentation](https://kubernetes.io/docs/home/).
+
+Once ready, you’ll deploy the application container in this cluster. For example, assume the application (`ExampleApp`) listens on port 8080.
 
 ## Step 3: Create directory structure
 
